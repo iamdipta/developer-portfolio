@@ -3,31 +3,49 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .name {
     color: orange;
 }
 
-.container {
+.flex {
     display: flex;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 3%;
+    padding: 0% 5%;
 
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
 }
 
 .button {
+
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 10px 30px;
     background-image: linear-gradient(orange, tomato);
     border-radius: 10px;
+
+}
+
+.top-banner {
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+p {
+    text-align: justify;
+}
+
+.middle-banner {
+    margin-top: 170px;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
